@@ -27,7 +27,7 @@ alert(found_elem (masiv1, elem));
 var elem = 24;
 function poshuk(masiv1, elem) {
      for (var i = 0; i < masiv1.length; i++) {
-        if (arr[i] === elem) {
+        if (masiv1[i] === elem) {
             return true;
         }
     }

@@ -4,7 +4,7 @@ var masiv2 = [71,91,23,85,15,6,78,82,37,87,46,75,29,52,32];
 function suma(masiv1){
   var sum = 0;
 	for (var i = 0; i < masiv1.length; i++) {
-		sum += arr[i];
+		sum += masiv1[i];
 	}
 	return sum;
      } 
